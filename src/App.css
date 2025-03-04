@@ -7,14 +7,15 @@ body{
 }
 
 .container{
-  margin-top: 20px;
+  margin-top: -120px;
 }
+
 
 .container1{
   justify-content: center;
   display: flex;
   margin:auto;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .runny{
