@@ -1,3 +1,7 @@
+An app to control the cooking time of different types of eggs, whether soft, medium, hard or extra hard. It has its different times and ringtone at the end. Enjoy a good boiled egg with this easy method! Created purely with React + Vite and styles/animations with CSS.
+
+
+![795shots_so](https://github.com/user-attachments/assets/01b95837-9c82-49c1-9fa6-e76ea3feb0bd)
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
