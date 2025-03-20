@@ -40,7 +40,7 @@ const TimePanel = ({imgSRC, time, closePanel}) => {
           setImgClass("");
           setImgClass("shake")
           //creamos el audio
-          audioRef.current = new Audio("public/ringtone.mp3");
+          audioRef.current = new Audio("/ringtoneApp.mp3");
           audioRef.current.play(); 
           //eliminamos los dots
           if(dotsInterval){
