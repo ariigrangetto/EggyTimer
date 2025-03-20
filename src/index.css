@@ -24,7 +24,7 @@ h1 {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-image: url(/src/assets/8bit\ pixel\ art\ night\ sky\,\ game\ space\ landscape.jpeg);
+    background-image: url(/src/assets/background.jpeg);
   }
   a:hover {
     color: #747bff;
