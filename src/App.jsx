@@ -38,6 +38,7 @@ const TimePanel = ({imgSRC, time, closePanel}) => {
           setStatus("Done!");
           //eliminamos la animacion de la imagen
           setImgClass("");
+          setImgClass("shake")
           //creamos el audio
           audioRef.current = new Audio("src/assets/original-phone-ringtone-36558.mp3");
           audioRef.current.play(); 
@@ -129,13 +130,13 @@ function App() {
 
       <div className='runny'>
       <button onClick={() => handleTimerClick(1, runnyEggImg)}>
-        <p>Runny yolk</p>
+        <p className='titleEggs'>Runny yolk</p>
         <img src={runnyEggImg} alt="RUNNY EGG IMG" />
       </button>
       </div>
       <div className='creamy'>
       <button onClick={() => handleTimerClick(5, creamyEggImg)}>
-      <p>Creamy yolk</p>
+      <p className='titleEggs'>Creamy yolk</p>
       <img src={creamyEggImg} alt="CREAMY EGG IMG" />
       </button>
       </div>
@@ -143,13 +144,13 @@ function App() {
       <div className="container2">
       <div className='cooked'>
       <button onClick={() => handleTimerClick(7, cookedEggImg)}>
-      <p>Cooked yolk</p>
+      <p className='titleEggs'>Cooked yolk</p>
       <img src={cookedEggImg} alt="COOKED EGG IMG" />
       </button>
       </div>
       <div className='hard'>
       <button onClick={() => handleTimerClick(10, hardEggImg)}>
-      <p>Hard yolk</p>
+      <p className='titleEggs'>Hard yolk</p>
       <img src={hardEggImg} alt="HARD EGG IMG" />
       </button>
       </div>

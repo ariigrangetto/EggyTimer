@@ -1,9 +1,10 @@
 body{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-image: url(./assets/eggtimerBackground.jpeg);
+  font-family: "Press Start 2P", system-ui;
   justify-content: center;
   display: flex;
   margin:auto;
+  background-image: url("src/assets/8bit pixel art night sky, game space landscape.jpeg");
+  background-size: cover;
 }
 
 .container{
@@ -119,10 +120,10 @@ h1{
   justify-content: center;
   margin:auto;
   margin-top: 30px;
+  font-family: "Press Start 2P", system-ui;
   font-size: 30px;
   cursor: none;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 h2{
@@ -130,10 +131,10 @@ h2{
   justify-content: center;
   margin:auto;
   font-weight: 500;
-  font-size: 18px;;
+  font-size: 15px;;
   cursor: none;
   margin-top: 5px;
-  color:black;
+  color:rgb(255, 255, 255);
 }
 
 
@@ -168,7 +169,7 @@ button{
   display: flex;
   justify-content: center;
   margin:auto;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 500;
   color:black;
 }
@@ -179,6 +180,7 @@ button{
   margin:auto;
   margin-top: 15px;
   font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: black;
 }
 
@@ -212,4 +214,22 @@ button{
 
 .jumping{
   animation: jump 2s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.3s ease-in-out infinite;
+}
+
+
+.titleEggs{
+  font-family: "Press Start 2P", system-ui;
+  font-size: 10px;
 }
