@@ -16,7 +16,7 @@ body{
   justify-content: center;
   display: flex;
   margin:auto;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .runny{
@@ -133,7 +133,7 @@ h2{
   font-weight: 500;
   font-size: 15px;;
   cursor: none;
-  margin-top: 5px;
+  margin-top: 15px;
   color:rgb(255, 255, 255);
 }
 
@@ -157,7 +157,6 @@ button{
   height: 320px;
   width: 250px;
   box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.226);
-  margin-top: 30px;
 }
 
 .timerDisplayImg{
